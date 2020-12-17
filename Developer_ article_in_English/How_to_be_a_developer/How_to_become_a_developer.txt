@@ -1,0 +1,195 @@
+ How to become a developer and get your first job as quickly as possible
+ 
+ by Sam Williams
+  
+ Have you ever thought about becoming a sofware developer or looking for a
+ change of career? This article will give you a solid plan to get you 
+ started in sofware development and get you your first job! 
+
+ But why be a developer?
+ If you're considering becoming a developer and but aren't sure whether
+ it'se a good idea, here's a few things to think avout:
+
+ 1.  There is a huge dmand for developers - at the time of writing,
+     Indeed had 37,739 job adverts for 'developer' in the UK and
+     145,640 in the US. those numbers are only going to increase as
+     the U.S Bureau of Lavor Statistics estimates a 17% rise between 2014 and 2024
+
+ 2.  The work can be very varied and interesting - as a developer
+     you can work on a huge range of projects from e-commerce websites
+     to computer games, from movile apps to artificial intelligence.
+     Almost all of the skills are transferable between each of these areas,
+     and this means you aren't locked into a single job.
+
+ 3.  the work can be flexible - As most of your work is reading and writing 
+     code, all you need is a computer.
+     This means it can be done from anywhere, at any time. There are an increasing
+     number of remote developers who work from home or while traveling the world.
+
+
+ How to become a developer
+ Being a deverloper requires many skills, and there are two major factors
+ in developing a skill: effective practice and support from senior
+ developers. You need to maximise both of these to help you become
+ the best developer you can be. There are three good ways to make sure
+ that you're on a fast track to starting your developer career:
+
+
+ Coding Bootcamps
+ These are graet, becaus they are desigend to take you from little or no
+ coding expeience to job-ready in 3 months This means lots of effective 
+ practice and tons of help from the developers running the bootcamp.
+
+ the issues that you might have with bootcamps are that they are 
+ usually 3 months of full time study and they can cost from $4,000 to
+ $20,000. That's a lot of money to spend, especially since you're not 
+ earning for those 3 months
+
+
+ Get a mentor
+ This is the pergect situation: you start coding and have a developer 
+ act as your mentor and tutor. They could be a friend, family member,
+ or just a developer that wants to help you out. You won't get as much 
+ help as with as bootcamp, but having someone to turn to when you hit a
+ roadblock is really useful. Also having someone checking in on you and 
+ making sure that you're putting in the time can help keep you on track.
+
+ This sounds great, but getting a mentor can be hard. Not everyone
+ knows someone who works as a developer, and it's a lot of extra work
+ for the mentor. If you know a developer, they may say no to being your
+ mentor and you need to respect that.
+
+ Get a Job as a developer
+ This may seem like a cheat, as you need to be able to code before you can
+ get a job. But I'll explain later how to get to this point without a mentor
+ or bootcamp. when you do get your first job, you'll suddenly have a huge 
+ advantage - you'll be getting paid to pracitce codeing while working with 
+ senior developers.What more could you want?
+
+ Working as a developer will also expose you to the side of development that
+ you'll not see while you study: the business side. This is a massive part 
+ of development, as thers's no point making a product that no-one wants, and
+ dealing with customers is a skill that takes time to learn.
+
+
+ Starting a Plan 
+ As not everyone can afford to go to bootcamp or knows someone who'll mentor
+ them, l'll give you a plan for how to get your first developer job. 
+ This is almost exactly how I went from an engineer to a developer in just 4
+ months.
+
+ 
+ Finding Your Job
+ To create a great plan, you need to have a target that you are going to hit.
+ Our target is to get a develper job as quickly as possible. the sooner you
+ get your first job, the sooner you get the boost of practicing coding every
+ day, having the support of senior developers, and the bonus of getting paid.
+
+ There are a lot of ways to get into development, from data science to AI to
+ game development, but the sector that is the easest to get into is web development.
+ If you've got your heart set on something else, rememver that starting in web
+ development doesn't mean you're locked into it. You'll learn a huge amount that 
+ you'll be able to use to transfer across into your preferred field.
+
+
+ When I searched for Junior Web Developer the first job listing I saw was for
+ a Junior Front End Web Developer. The reuquirement are:
+	
+
+      What do you need?  
+      * front-end coding knowledge: HTML5, CSS3 and Bootstrap
+      * ability to debug front-end site issues using inspector tools
+      * exprtience in creacting responsive cross browser and mobioe friendly webwites
+      * a keen interest in the latest trends and frameworks
+      * a portfolio that lets us see your development experience and achievement
+
+    if you have previus agency experience, that's great - but don't worry 
+    if not-we're more interested in your work examples / portfolio
+
+    How could you really impress us? (Desirable skills)
+
+      * Knowledge of developing Wordpress themes from scratch
+      * Confidence in setting up and integrating Wordpress plugins
+      * Au understanding JQuery
+      * Some experience of working with PHP (however small)
+      * An understanding of Search Engine Optimisation 
+
+ 
+ We can look through a gew similar job adverts and the 
+ requirements that appear often. These will likely be:
+  
+    * Front-end knowledge: HTML, CSS and JanaScript
+    * Ability to create responsive websites
+    * A portfolio demonstrating your experience and skills
+    * Understanding of version comtrol
+    
+    Oter bonus skills might be:
+
+    * Javascript libraries: jQuery, AGAX, Bootstrap
+    * Debugging knowledge
+
+
+ Creating the Plan
+ Now that we know what we need to learn to meet the requirements, 
+ we can create a plan for how to learn what we need to meet them. 
+ You should try to follow this plan step by step, as it's going to be easier to learn
+ the later sections if you know the earlier ones.
+
+
+ HTML and CSS
+ These are the building blocks of most websites today. You need to develop a strong
+ understanding of these if you want a chance at getting a job. Luckily, there are hundreds 
+ of free and paid resources out there which and help you learn and master these skills
+ 
+ freeCodeCamp is a website that teaches you everytihing to do with website development,
+ and it's incredible. It takes you step by step through mini lessons and it's where I learned
+ HTML, CSS, and JavaScript!
+
+ we'll be starting with the Responsive Web Design Certification and the Basic HTML and
+ HTML5 and Basic CSS sections. these sections introduce you to HTML and CSS, and by
+ the end you'll be creating forms and styling HTML with cascading variables.
+
+
+ 
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
