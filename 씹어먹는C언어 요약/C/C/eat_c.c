@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main() {
 	char ch;
 
@@ -9,19 +9,19 @@ int main() {
 	float fl;
 	double du;
 
-	printf("char Çü º¯¼ö ÀÔ·Â : ");
+	printf("char í˜• ë³€ìˆ˜ ìž…ë ¥ : ");
 	scanf("%c", &ch);
 
-	printf("short Çü º¯¼ö ÀÔ·Â : ");
+	printf("short í˜• ë³€ìˆ˜ ìž…ë ¥ : ");
 	scanf("%hd", &sh);
-	printf("int Çü º¯¼ö ÀÔ·Â : ");
+	printf("int í˜• ë³€ìˆ˜ ìž…ë ¥ : ");
 	scanf("%d", &i);
-	printf("long Çü º¯¼ö ÀÔ·Â : ");
+	printf("long í˜• ë³€ìˆ˜ ìž…ë ¥ : ");
 	scanf("%ld", &lo);
 
-	printf("float Çü º¯¼ö ÀÔ·Â : ");
+	printf("float í˜• ë³€ìˆ˜ ìž…ë ¥ : ");
 	scanf("%f", &fl);
-	printf("double Çü º¯¼ö ÀÔ·Â : ");
+	printf("double í˜• ë³€ìˆ˜ ìž…ë ¥ : ");
 	scanf("%lf", &du);
 
 	printf("char : %c, short : %d, int : %d ", ch, sh, i);
