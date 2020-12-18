@@ -150,10 +150,36 @@
  the end you'll be creating forms and styling HTML with cascading variables.
 
 
- 
+ To improve our CSS.we'll complete the Applied Visual Design section up to Create a 
+ More Complex Shape Using CSS and HTML, and then do all of Responsive Web Design
+ and CSS Flexbox. We're skipping some of the challenges and sections for now, as our
+ aim is to learn what we need immediately. Those other sections are great, but not needed
+ for now.
+
+ Now that we've learned to use HTML and CSS to build and style a web page, we're going
+ to get some effective pratice by completing the Responsive Web Dseign Projects. These 
+ projects will use everytihing that you've learnd so far to build five websites.
  
 
   
+ Version Control
+ Version control is a system where you save files so you can look back over time and
+ see what you changed at what point. it'll probably be used at every software company 
+ ever work at, and knowing the basics is really important.
+
+ To learn how to install Git, create a GitHub account and work with Git. 
+ thers is a freat tutorial post An Intro to Git and GitHub. you could learn this before the 
+ HTML and CSS design projects and start using version control for these projects.
+ 
+ Now that you konw how to use version control, try to do all of your projects in a local 
+ editor (like VScode) and upload them to CodePen when you're finished. Working in a 
+ local editor in how you'll be doning it at a job, so it helps build your experience.
+
+ There are a lot of ways to use Git/version control, but you wont to be able to create a
+ GitHub repository, link that to a local folder, commit work that you've done, and push 
+ that up to GitHub. Once you can do this, you'll be able to work effectively as part of a
+ development team.
+
 
 
 
