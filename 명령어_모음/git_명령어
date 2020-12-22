@@ -1,0 +1,48 @@
+git 명령어 모음
+
+$ sudo apt-get install git-core :git 설치
+$ git --version :git 버전 확인
+$ sudo git config --global user.name "본인 계정 입력"
+$ sudo git config --gloval user.email "본인 이메일 주소 입력"
+
+$ sudo mkdir /works :작업폴더 생성
+$cd /works : 작업폴더로 이동
+
+$ sudo git clone https://github.com/dejavuwing/ngle.git :레포지토리 복사
+
+
+$ sudo git remote add origin https://github.com/dejavuwing/ngle.git :레포지토리 등록
+$ sudo git fetch origin
+
+$ sudo git add . :변경된 모든 파일 추가
+$ sudo git commit -m "커밋 내용 입력" :커밋
+$ sudo git push :저장소에 올리기
+
+$ sudo git pull :내려받기
+
+$ git status : git 상태확인
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
