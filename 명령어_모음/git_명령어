@@ -6,7 +6,7 @@ $ sudo git config --global user.name "본인 계정 입력"
 $ sudo git config --gloval user.email "본인 이메일 주소 입력"
 
 $ sudo mkdir /works :작업폴더 생성
-$cd /works : 작업폴더로 이동
+$ cd /works : 작업폴더로 이동
 
 $ sudo git clone https://github.com/dejavuwing/ngle.git :레포지토리 복사
 

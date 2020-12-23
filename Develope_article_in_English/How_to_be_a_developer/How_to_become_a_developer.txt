@@ -181,41 +181,42 @@
  development team.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+JavaScript
+ JavaScript is the language that powers 94.8% of websites on internet. Thats a lot of sites!
+ JavaScript allows you to change a static website into a fully interactive one.
+ 
+ To learn JavaScript we can do the JavaScript Algorithms and Data Structures Certification
+ on freeCodeCamp. Because JavaScript in such a big part of modern websites, we're going to
+ complete the whole of this certification. This may seem like a lot of work, but when you work
+ as a web developer, you'll probably spend most of your time writing JavaScript. So its 
+ important to ve good at it.
+ 
+ Building your portfolio
+ To show off what you can do, you need to have portfolio to show to possible employers. 
+ Luckily you will already have 10 projects - 5 HTML and CSS and 5 JavaScript. 
+ make sure that you've got these all in version control and uploaded to GitHub so that other
+ people (future employers) can have a look and see how well you work.
+ 
+ You can now go back to the portfolio site that you built and update it with all of your new
+ projects. You can then use your new JavaScript skills to add interaction to the page. 
+ This could be a popup description when a user hovers over one of your projects,
+ a slideshow of images, or even a mini-game.
+ 
+ The job Search 
+ if you've done everything in the plan so far, then you should meet the requirements of a lot
+ of the junior web developer jobs. Now it's time to apply to some jobs.
+ 
+ To apply to most jobs. you need a CV or resume. So we can make a web developer CV.
+ This should highlight your strengths without bringing added attention to how long you've
+ been coding or the fact that you haven't got any commercial experience.
+ 
+ Here's the CV that I used to get my second job.
+ 
+ which jobs to apply for is also important. This may seem wrong, but you should apply to
+ jobs where you can meet 80% (or more) of the requirements. You can always point out 
+ that as a self taught developer, you will likely pick up the other requirements faster than
+ most other people.
+ 
+ Of course this doesn't mean you should apply to every job where you meet the requirements.
+ Only apply to jobs that you think are intersting and that you would take if you got the offer
+ 
