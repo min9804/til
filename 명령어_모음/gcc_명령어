@@ -4,3 +4,7 @@ gcc 소스코드파일명 -o 결과파일명
 
 ./파일명 or 전체경로
 
+ex)
+sudo gcc if-else.c -o if-else
+./if-else 
+
