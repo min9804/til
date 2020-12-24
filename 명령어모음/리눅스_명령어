@@ -60,14 +60,32 @@ rm -rf *: 사용자에게 다시 확인하지 않고 현재 디렉토리의 모�
 *디렉토리 삭제
 rmdir dirname: 디렉토리삭제(파일이 안에 있는 경우는 삭제 불가)
 rmdir -p dirname: 상위경로까지 삭제
-    
-    
-    
-    
-    
-    
-    
-    
+ 
+file 정보 확인하기
+ls -la
+맨 앞글자
+d 디렉토리 
+b 블록 특수 파일
+c 문자 특수 파일
+l 링크 파일 
+p 선입 선출 특수 파일
+s 로컬 소켓
+- 일반 파일
+
+파일 권한 
+r read
+w write
+x excute
+user  group other	
+---   ---    ---
+ex) rwxr--r-x
+
+
+리눅스는 확장자를 사용하지 않는다!
+file 파일명 :file의 종류 확인 하기
+fire * :디렉토리에 있는 모든 파일 확인
+file -l | more :읽을수 있는 데이터 확인
+
     
     
     
