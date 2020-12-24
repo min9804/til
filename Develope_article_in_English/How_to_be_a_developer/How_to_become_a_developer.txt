@@ -6,6 +6,9 @@
  change of career? This article will give you a solid plan to get you 
  started in sofware development and get you your first job! 
 
+
+
+
  But why be a developer?
  If you're considering becoming a developer and but aren't sure whether
  it'se a good idea, here's a few things to think avout:
@@ -35,6 +38,8 @@
  that you're on a fast track to starting your developer career:
 
 
+
+
  Coding Bootcamps
  These are graet, becaus they are desigend to take you from little or no
  coding expeience to job-ready in 3 months This means lots of effective 
@@ -44,6 +49,8 @@
  usually 3 months of full time study and they can cost from $4,000 to
  $20,000. That's a lot of money to spend, especially since you're not 
  earning for those 3 months
+
+
 
 
  Get a mentor
@@ -59,6 +66,9 @@
  for the mentor. If you know a developer, they may say no to being your
  mentor and you need to respect that.
 
+
+
+
  Get a Job as a developer
  This may seem like a cheat, as you need to be able to code before you can
  get a job. But I'll explain later how to get to this point without a mentor
@@ -72,12 +82,16 @@
  dealing with customers is a skill that takes time to learn.
 
 
+
+
  Starting a Plan 
  As not everyone can afford to go to bootcamp or knows someone who'll mentor
  them, l'll give you a plan for how to get your first developer job. 
  This is almost exactly how I went from an engineer to a developer in just 4
  months.
 
+ 
+ 
  
  Finding Your Job
  To create a great plan, you need to have a target that you are going to hit.
@@ -90,6 +104,8 @@
  If you've got your heart set on something else, rememver that starting in web
  development doesn't mean you're locked into it. You'll learn a huge amount that 
  you'll be able to use to transfer across into your preferred field.
+
+
 
 
  When I searched for Junior Web Developer the first job listing I saw was for
@@ -136,6 +152,8 @@
  the later sections if you know the earlier ones.
 
 
+
+
  HTML and CSS
  These are the building blocks of most websites today. You need to develop a strong
  understanding of these if you want a chance at getting a job. Luckily, there are hundreds 
@@ -149,7 +167,6 @@
  HTML5 and Basic CSS sections. these sections introduce you to HTML and CSS, and by
  the end you'll be creating forms and styling HTML with cascading variables.
 
-
  To improve our CSS.we'll complete the Applied Visual Design section up to Create a 
  More Complex Shape Using CSS and HTML, and then do all of Responsive Web Design
  and CSS Flexbox. We're skipping some of the challenges and sections for now, as our
@@ -161,6 +178,7 @@
  projects will use everytihing that you've learnd so far to build five websites.
  
 
+  
   
  Version Control
  Version control is a system where you save files so you can look back over time and
@@ -179,6 +197,8 @@
  GitHub repository, link that to a local folder, commit work that you've done, and push 
  that up to GitHub. Once you can do this, you'll be able to work effectively as part of a
  development team.
+
+
 
 
 JavaScript
@@ -202,6 +222,9 @@ JavaScript
  This could be a popup description when a user hovers over one of your projects,
  a slideshow of images, or even a mini-game.
  
+ 
+ 
+ 
  The job Search 
  if you've done everything in the plan so far, then you should meet the requirements of a lot
  of the junior web developer jobs. Now it's time to apply to some jobs.
@@ -219,4 +242,97 @@ JavaScript
  
  Of course this doesn't mean you should apply to every job where you meet the requirements.
  Only apply to jobs that you think are intersting and that you would take if you got the offer
+ 
+ 
+ 
+ 
+ Using Recruiters
+ Recuiters can be a powerful tool for getting your first job. they know what the company wants,
+ often have jobs that aren't on job boards, and they want you to get the job... that's how they
+ get paid.
+ 
+ To make sure that your CV gets into the hands of as many recuriters as possible, we need to apply 
+ to jobs on a range of sites. Start with the large sites like indeed and Total Jobs, but try to 
+ find the smaller job sites, too.
+ 
+ A lot of developers talk about how awful recruiters are, but we need to make sure to utilise them.
+ Whenever you speak to a recruiter, make sure to be respectful and polite. If they ask you about
+ job that are way above or below your desired job, thank them and decline but remind them of the
+ type of job you are looking for.
+  
+  My first two jobs came from recruiters asking about a job that wasn't suited to me, but they had
+  another job that was perfect. Don't give them such a hard time.
+ 
+ 
+ 
+ 
+ 
+ Continued Improvement
+ You probably won't get an interview and job offer in ther first week of applying for jobs.
+ You might not get an interview in the first month, but this gives you time to improve.
+
+ Now that we've met the basic requirements, we can start adding more nice to haves 
+ into our tool kit. Now is time to add a new tool to your tool chest. Adding more skills to you
+ belt will make employers more likely to want you and increase your chances or getting an interview
+ Here are some skills to learn:
+ 
+ 
+ 
+ 
+ Learn a library
+ There are JavaScript library out there which can make your life much easier.
+ One of the most popular libraries is jQuery, which helps you wiht DOM manipulation, object and
+ array functions, and much more.
+ 
+ l would recommend learning to use jQuery, because it's a great introduction to using libraries in
+ JavaScript. There are loads of courses and tutorials for learning jQuery, but I still love the
+ freeCodeCamp lesson.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
