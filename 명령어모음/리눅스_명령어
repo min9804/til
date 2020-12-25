@@ -86,7 +86,12 @@ file 파일명 :file의 종류 확인 하기
 fire * :디렉토리에 있는 모든 파일 확인
 file -l | more :읽을수 있는 데이터 확인
 
-    
+find : 찾기 명령어
+find -name 파일명
+-type d|f|f...
+-user 유저이름
+
+ex) find -name *sh : sh 로끝나는 모든 파일 찾기   
     
     
     
