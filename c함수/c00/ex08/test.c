@@ -1,28 +1,29 @@
 #include <unistd.h>
+#include <stdio.h>
 
-int num_len;
-char num[10];
+int g_len;
+char g_buf[10];
 
-void make_num(int prev, int n)
+void	rec(int prev, int n)
 {
 	int i;
-	if (n == num_len)
+	if (n == g_len)
 	{
-		write(1, num, num_len);
+		write(1, g_buf, g_len);
 		write(1, ", ", 2);
 		return ;
 	}
 	if (prev == 9)
 		return ;
 	i = prev;
-	while (++i <= 10 - num_len + n)
+	while (++i <= 10 - g_len + n)
 	{
-		num[n] = '0' + i;
-		make_num(i, n + 1);
+		g_buf[n] = '0' + i;
+		rec(i, n + 1);
 	}
 }
 
-void print_last(int i)
+void	print_last(int i)
 {
 	char c;
 
@@ -33,16 +34,16 @@ void print_last(int i)
 	}
 }
 
-void ft_print_combn(int n)
+void	ft_print_combn(int n)
 {
 	int i;
 	
 	i = 0;
-	num_len = n;
+	g_len = n;
 	while (i < 10 - n)
 	{
-		num[0] = '0' + i;
-		make_num(i++, 1);
+		g_buf[0] = '0' + i;
+		rec(i++, 1);
 	}
 	print_last(i);
 }
