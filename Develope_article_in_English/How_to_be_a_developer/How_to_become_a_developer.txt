@@ -291,6 +291,36 @@ JavaScript
  
  
  
+ Completing the HTML and CSS Lessons 
+ Go back to the HTML and CSS lessons from freeCodeCamp and complete the 
+ rest of the lessons in Applied Visual Design, Applied Accesibility, and CSS Grid.
+ 
+ 
+ 
+ 
+ Advance Your CSS(optional)
+ If you like the design and style side of front end development, then ther's a 
+ cool Daily CSS course that gets you to make images with just CSS and HTML. 
+ these images could be a great thing to talk about at an interview
+ 
+ 
+ 
+ 
+ Learn how JavaScript Works
+ Being able to use javaScript in great, but understanding how it works can help 
+ you become a much better developer. it allows you to write the best 
+ possible code, as you'll know why and how that code fixes the problem.
+ 
+ To get this deeper understanding of JavaScript, I highly recommend the You
+ Don't Know JS book series. The first two books are great for understanding 
+ the fundamentals of JavaScript. Understanding this gives you a great
+ foundation on which you can become an even better developer. 
+ They can be accessed for FREE online or bought in hard copy.
+ 
+ 
+ 
+ 
+ 
  
  
  
