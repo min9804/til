@@ -1,13 +1,13 @@
 #include <stdio.h>
 char *ft_strncpy(char *dest, char *src, unsigned int n)
 {	
-	int i = 0;
+	unsigned int i = 0;
 	while (i < n && src[i])
 	{
 		dest[i] = src[i];
 		i++;
 	}
-	while (i <= n)
+	while (i < n)
 	{
 		dest[i] = '\0';
 		i++;
@@ -18,8 +18,8 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
 int main()
 {
 	char arr1[] = "Hello";
-	char arr2[] = "131";
-	ft_strncpy(arr2, arr1, 5);
+	char arr2[] = "123456789";
+	ft_strncpy(arr2, arr1, 3);
 	printf("%s", arr2);
 }
 
