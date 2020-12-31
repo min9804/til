@@ -13,29 +13,28 @@ void print_addr(long long addr, int count)
 	{
 		while (count++ < 16)
 			ft_putchar('0');
-		return ;
+		return;
 	}
 	print_addr(addr >> 4, count + 1);
 	ft_putchar(g_hex[addr % 16]);
 }
-
 
 void *ft_print_memory(void *addr, unsigned int size)
 {
 	unsigned int i;
 	unsigned char *ptr;
 	int len;
-	
+
 	g_hex = "0123456789abcdef";
 	i = 0;
 	while (size)
 	{
-		if (size /16)
-			len =16;
+		if (size / 16)
+			len = 16;
 		else
-	
-		len = size;
-		ptr = (unsigned char*)addr + i;
+
+			len = size;
+		ptr = (unsigned char *)addr + i;
 		print_addr((long long)ptr, 0);
 		ft_putchar(':');
 		process(ptr, len);
