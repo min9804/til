@@ -11,7 +11,8 @@ void ft_putchar(char c)
 void print_addr(long long addr, int count)
 {
 	if (!addr)
-	{ while (count++ < 16)
+	{
+		while (count++ < 16)
 			ft_putchar('0');
 		return ;
 	}
@@ -24,7 +25,7 @@ void process(unsigned char *ptr, int len)
 	int i;
 
 	i = 0;
-	while (i <len)
+	while (i < len)
 	{
 		if (i % 2 == 0)
 			ft_putchar(' ');
@@ -37,36 +38,36 @@ void process(unsigned char *ptr, int len)
 		++i;
 	}
 	while (i < 16)
-	{	
+	{
 		if (i % 2 == 0)
 			ft_putchar(' ');
 		write(1, "  ", 2);
+		++i;
 	}
 }
 
 void *ft_print_memory(void *addr, unsigned int size)
 {
+	int len;
 	unsigned int i;
 	unsigned char *ptr;
-	int len;
 	
 	g_hex = "0123456789abcdef";
-	i = 0;
 
+	i = 0;
 	while (size)
 	{
+		
 		if (size / 16)
 			len = 16;
 		else
 			len = size;
-
-		ptr = (unsigned char*)addr + i;
+		
+		ptr = (unsigned char*)addr + i; 
 		print_addr((long long)ptr, 0);
 		ft_putchar(':');
-		
 		process(ptr, len);
 		ft_putchar(' ');
-
 		write(1, g_str, len);
 		ft_putchar('\n');
 		size -= len;
@@ -77,6 +78,9 @@ void *ft_print_memory(void *addr, unsigned int size)
 
 int main()
 {
-	char arr[] =  "Bonjour les amin askdlfjalksdjfalkfj";
-	ft_print_memory(arr, 32);
+	char arr[] = "aaaaaaaaaaaaaabbbbbbbbbbbbbbcccccccccdddddddddddd";
+	ft_print_memory(arr, 60);
 }
+
+
+
