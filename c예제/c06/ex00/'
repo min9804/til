@@ -1,0 +1,13 @@
+#include <unistd.h>
+
+int main(int argc, char **argv)
+{
+	int i;
+	
+	i = 0;
+	while (*argv)
+	{
+		write(1, argv, 1);
+		i++;
+	}
+}
