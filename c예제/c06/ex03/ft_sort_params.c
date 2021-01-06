@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdio.h>
 
 int ft_strcmp(char *s1, char *s2)
 {
@@ -22,13 +23,13 @@ void ft_sort(int argc, char *argv[])
 	while (i++ < argc)
 	{
 		j = 1;
-		while (j++ < argc)
+		while (++j < argc)
 		{
-			if (ft_strcmp(argv[j], argv[j + 1]) > 0)
+			if (ft_strcmp(argv[j - 1], argv[j]) < 0)
 			{
-				temp = argv[j];
-				argv[j] = argv[j + 1];
-				argv[j + 1] = temp;
+				temp = argv[j - 1];
+				argv[j - 1] = argv[j];
+				argv[j] = temp;
 			}
 		}
 	}
@@ -41,8 +42,8 @@ int main(int argc, char **argv)
 	int i;
 	int j;
 
-	i = 1;
-	while (i++ < argc)
+	i = argc;
+	while (--i > 0)
 	{
 		j = 0;
 		while (argv[i][j] != '\0')
