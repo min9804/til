@@ -63,7 +63,7 @@ int ft_atoi_base(char *str, char *base)
 	}
 	if (!len)
 		return (0);
-        return ((num_base(str, len, base)) * sign);
+    return ((num_base(str, len, base)) * sign);
 }
 
 int main()
