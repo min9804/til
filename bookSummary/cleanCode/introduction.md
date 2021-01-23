@@ -3,25 +3,20 @@
 ***
 
 Learning to write clean code is wardwork. 
-It requires more than just the kowledge of principles and patterns.
-
+It requires more than just the kowledge of principles and patterns.<br/><br/><br/>
 
 
 This book into three parts.
 
 1. Describe the principls, patterns, and practices of writhing clean code.
 
-    There is quit a bit of code in these chapters, and they will be challenging to read.
-    
-    
-    
+    There is quit a bit of code in these chapters, and they will be challenging to read.<br/><br/>
+
 2. The harder work.
 
     It consists of several case studies of ever-increasing complexity.
     Each case study is an exercise in cleaning up sone code-of transforming codd that has some provlems 
-    into code that has fewer problems
-
-
+    into code that has fewer problems<br/><br/><br/>
 
 3. Payoff 
 
