@@ -13,11 +13,15 @@ This book into three parts.
 
     There is quit a bit of code in these chapters, and they will be challenging to read.
     
+    
+    
 2. The harder work.
 
     It consists of several case studies of ever-increasing complexity.
     Each case study is an exercise in cleaning up sone code-of transforming codd that has some provlems 
     into code that has fewer problems
+
+
 
 3. Payoff 
 
