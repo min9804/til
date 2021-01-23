@@ -10,7 +10,7 @@ This book into three parts.
 
 1. Describe the principls, patterns, and practices of writhing clean code.
 
-    There is quit a bit of code in these chapters, and they will be challenging to read.<br/><br/>
+    There is quit a bit of code in these chapters, and they will be challenging to read.<br/><br/><br/>
 
 2. The harder work.
 
