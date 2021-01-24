@@ -1,22 +1,22 @@
-# Chapter01 - cleancode <br/><br/><br/>
+# Chapter01 - cleancode
 
 ***
 
 ##Contents<br/>
   
-  *There Will Be Code
-  *Bad Code
-  *The Total Cost of Owning a Mess
-    *The Grand Redesign in the Sky
-    *Attitude
-    *The Primal Conundrum
-    *The Art of Clean Code?
-    *What Is Clean Code?
-   *Schools of Thought
-   *We Are Authors
-   *The Boy Scout Rule
-   *Prequel and Principles
-   *Conclusion
+  - There Will Be Code
+  - Bad Code
+  - The Total Cost of Owning a Mess
+    - The Grand Redesign in the Sky
+    - Attitude
+     -The Primal Conundrum
+    - The Art of Clean Code?
+    - What Is Clean Code?
+   - Schools of Thought
+   - We Are Authors
+   - The Boy Scout Rule
+   - Prequel and Principles
+   - Conclusion
    
    ***
    
