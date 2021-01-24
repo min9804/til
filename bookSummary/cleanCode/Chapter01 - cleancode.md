@@ -1,8 +1,6 @@
 # Chapter01 - cleancode
 
-***
-
-##Contents<br/>
+## Contents
   
   - There Will Be Code
   - Bad Code
