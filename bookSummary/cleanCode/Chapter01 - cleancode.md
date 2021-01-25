@@ -23,6 +23,8 @@
    
 <a name="1"></a>
 ## There Will be Code.
-- 
+- We will never be rid of code, because code represents the details of the requirements. At some level those details cannot be ignored or abstracted; they have to be specified.
+- I expect that the level of abstraction of our languages and domain-specific languages will continue to increase. But it will not dliminate code.
+- It will still need to be rigorous, accurate, and so formal and detailed that a macchine can understand and execute it.
    
    
