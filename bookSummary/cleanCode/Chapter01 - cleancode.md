@@ -63,7 +63,7 @@
   
 - As the mess vuilds, the productivity of the team continues to decreas, asymptotically approaching zero.
 
-- As profuctivity dereases, management dos the only thing they can: 
+- As profuctivity decreases, management dos the only thing they can: 
   - they add more staff to the project in hopes of increasing productivity.
   - But that new staff is not versed in the design of the system.
   - Furthermore, they, and eeryone else on the team, are under horrific pressure to increase productivity. 
