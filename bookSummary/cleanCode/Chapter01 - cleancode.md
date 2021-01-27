@@ -5,7 +5,7 @@
   - [There Will Be Code.](#1)
   - [Bad Code](#2)
   - [The Total Cost of Owning a Mess](#3)
-    - The Grand Redesign in the Sky
+    - [The Grand Redesign in the Sky](#3-1)
     - Attitude
      -The Primal Conundrum
     - The Art of Clean Code?
@@ -58,7 +58,21 @@
 
 - Over the span of a year or two, teams that were moving vary gast at the beginning of porject can find themselves moving at a snail's pace
   - Every addition or modification to the system requires that the tangles, twists, and knots ve "understood" so that more tangles, twists, and knots can ve added.
-  - Over time the mess becomes so bif and so deep and so tall, they can not clean it up. There is no way at all
+  - Over time the mess becomes so big and so deep and so tall, they can not clean it up. There is no way at all
+  </br>
+  
+- As the mess vuilds, the productivity of the team continues to decreas, asymptotically approaching zero.
+- As profuctivity dereases, management dos the only thing they can: 
+ - they add more staff to the project in hopes of increasing productivity.
+ - But that new staff is not versed in the design of the system.
+ - Furthermore, they, and eeryone else on the team, are under horrific pressure to increase productivity. 
+ - So they all make more and more messes, driving the productivity ever further toward zero.
+ </br>
+ 
+ 
+ <a name="3-1"></a>
+ #### The Grand Redesing in the Sky ####
+ 
   
  
 
