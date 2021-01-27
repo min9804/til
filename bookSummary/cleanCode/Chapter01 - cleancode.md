@@ -62,12 +62,13 @@
   </br>
   
 - As the mess vuilds, the productivity of the team continues to decreas, asymptotically approaching zero.
+
 - As profuctivity dereases, management dos the only thing they can: 
  - they add more staff to the project in hopes of increasing productivity.
  - But that new staff is not versed in the design of the system.
  - Furthermore, they, and eeryone else on the team, are under horrific pressure to increase productivity. 
  - So they all make more and more messes, driving the productivity ever further toward zero.
- </br>
+</br>
  
  
  <a name="3-1"></a>
