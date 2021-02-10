@@ -1,7 +1,7 @@
 #include <unistd.h>
-void ft_putchar(char a)
+void ft_putchar(char c)
 {
-	write(1, &a, 1);
+	write(1, &c, 1);
 }
 void print_num(int a, int b)
 {
@@ -18,7 +18,9 @@ void print_num(int a, int b)
 }
 void ft_print_comb2(void)
 {
-	int a, b;
+	int a;
+	int b;
+
 	a = 0;
 	while (a <= 98)
 	{
@@ -26,7 +28,7 @@ void ft_print_comb2(void)
 		while (b <= 99)
 		{
 			print_num(a, b);
-			b ++;
+			b++;
 		}
 		a++;
 	}
