@@ -19,7 +19,7 @@ int main()
 {
 	char arr1[] = "Hello";
 	char arr2[] = "123456789";
-	ft_strncpy(arr2, arr1, 3);
+	ft_strncpy(arr2, arr1, 9);
 	printf("%s", arr2);
 }
 

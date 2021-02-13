@@ -34,28 +34,19 @@ char *ft_strcapitalize(char *str)
 	i = 0;
 	while (str[i])
 	{	
-		if (!is_alpha(str[i-1]) && !is_numeric(str[i-1]))
-		{
-			if (is_lowercase(str[i]))
-			{
-				str[i] -= 32;
-			}
-		}
-		else
-		{
-			if (is_upercase(str[i]))
-			{	
-				str[i] += 32;
-			}
-		}
+		if (is_upercase(str[i]))
+			str[i] += 32;
+		if (!is_alpha(str[i-1]) && !is_numeric(str[i-1]) && is_lowercase(str[i]))
+			str[i] -= 32;
 		i++;
 	}
+
 	return (str);
 }
 
 int main()
 {
-	char arr[] = "salut, coMMEnt tu vas ? 42mots quarante-deux; cinquante+et+un";
+	char arr[] = "Salut, coMMEnt tu vas ? 42mots quarante-deux; cinquante+et+un";
 	ft_strcapitalize(arr);
 	printf("%s \n", arr);
 

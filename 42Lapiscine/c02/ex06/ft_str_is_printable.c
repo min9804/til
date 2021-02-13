@@ -14,6 +14,7 @@ int ft_str_in_number(char *str)
         }
         return (1);
 }
+
 int main()
 {
         char arr[] = "hello12△3";

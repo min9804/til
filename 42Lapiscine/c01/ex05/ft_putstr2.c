@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-void	ft_ptustr(char *str)
+void 	ft_putstr(char *str)
 {
 	while (*str)
 	{
@@ -11,6 +11,8 @@ void	ft_ptustr(char *str)
 
 int main()
 {
-	ft_ptustr("hello world");
+	char arr[] = "hello";
+
+	ft_putstr(arr);
 }
 

@@ -18,4 +18,3 @@ int main()
 	ft_strcpy(arr2, arr1);
 	printf("%s \n", arr2);
 }
-	
