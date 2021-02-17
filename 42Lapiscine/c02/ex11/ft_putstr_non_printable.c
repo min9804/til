@@ -35,17 +35,3 @@ int main()
 	char arr[] = "Coucou\ntu vas bien ?";
 	ft_putstr_non_printable(arr);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

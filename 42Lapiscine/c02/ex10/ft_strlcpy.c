@@ -35,9 +35,9 @@ int main()
 	unsigned int i;
 	char arr1[] = "Hello";
 	char arr2[] = "123456789";
-	i = ft_strlcpy(arr2, arr1, 6);
+	i = ft_strlcpy(arr2, arr1, 4);
 	printf("%s \n", arr2);
 	printf("%d \n", i);
-	printf("%c \n", arr2[2]);
+	printf("%s \n", arr2);
 	return 0;
 }
