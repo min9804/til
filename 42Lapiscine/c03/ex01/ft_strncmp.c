@@ -1,4 +1,6 @@
 #include <unistd.h>
+#include <stdio.h>
+
 int ft_strncmp(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i;
@@ -20,13 +22,10 @@ int ft_strncmp(char *s1, char *s2, unsigned int n)
 }
 int main()
 {
-	char s1[] = "123456789";
-	char s2[] = "123456789";
-     	char c = 'o';
+	char s1[] = "01";
+	char s2[] = "0";
 
-        if (!ft_strncmp(s1, s2, 20))
-	{
-                write(1, &c, 1);
-	}
+	printf("%d \n", ft_strncmp(s1, s2, 2));
+	
+	return (0);
 }
-

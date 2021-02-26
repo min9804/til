@@ -47,7 +47,6 @@ int check_base(char *base)
 	return (i);
 }
 
-
 int ft_atoi_base(char *str, char *base)
 {	
 	int len = check_base(base);
