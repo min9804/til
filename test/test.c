@@ -1,16 +1,8 @@
 #include <stdio.h>
 
-int dT0B(int num)
-{
-
-	
-
 int main()
 {
-	int D;
+	printf("hello world\n");
 
-	D = 5;
-
-
-
-
+	return (0);
+}
