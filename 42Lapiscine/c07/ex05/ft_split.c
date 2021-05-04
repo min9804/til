@@ -63,8 +63,8 @@ char **ft_split(char *str, char *charset)
 
 int main()
 {
-	char *arr = "1abc2b3ab4";
-	char *set = "abc";
+	char *arr = "123a4214bv5b34n664";
+	char *set = "abv";
 	char **ret = ft_split(arr, set);
 	for (int i = 0; ret[i]; i++)
 		printf("%s \n", ret[i]);

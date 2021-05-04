@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 char *ft_strdup(char *src)
 {
@@ -14,3 +15,11 @@ char *ft_strdup(char *src)
 		ret[len] = src[len];
 	return (ret);
 }
+
+void main()
+{
+	char arr[] = "hello world";
+	char *asd = ft_strdup(arr);
+	printf("%s\n", asd);
+}
+	

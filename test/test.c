@@ -2,7 +2,11 @@
 
 int main()
 {
-	printf("hello world\n");
+	char arr[100];
 
-	return (0);
+	scanf("%s", arr);
+	printf("%s\n", arr);
+
+	return 0;
 }
+
