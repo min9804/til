@@ -28,13 +28,13 @@ void ft_putnbr(int nb)
 	}
 	else
 	{
-		ft_numtochar(unb);
+		ft_numtochar(nb);
 	}
 }
 
 int main()
 {
-	int a = -2147483648;
+	int a = 2147483647;
 	ft_putnbr(a);
 }
 
