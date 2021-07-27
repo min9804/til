@@ -1,18 +1,11 @@
 #include <stdio.h>
 int main()
 {
-	int a;
-	int* p;
-	p = &a;
-	printf("%p \n", p);
+	int size = 18;
+	int len;
 
-	if (16/16)
-		printf("%c \n", 't');
-	if (12/16)
-		printf("%c \n", 'f');
-	if (40/16)
-		printf("%c \n", 'g');
-	int i = 0;
-	while (i++ < 2)
-		printf("%c \n", 'o');
+	len = size / 16 ? 16 : size;
+	printf("%d \n", len);
+
 }
+

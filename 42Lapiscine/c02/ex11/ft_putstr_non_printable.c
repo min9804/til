@@ -32,6 +32,15 @@ void ft_putstr_non_printable(char *str)
 }
 int main()
 {
-	char arr[] = "Coucou\ntu vas bien ?";
-	ft_putstr_non_printable(arr);
+//	char arr[] = "Coucou\ntu vas bien ?";
+//	ft_putstr_non_printable(arr);
+//	write(1, "\n", 1);
+	char arr2[3];
+	arr2[0] = -10;
+	arr2[1] = 97;
+	arr2[2] = 0x80;
+	ft_putstr_non_printable(arr2);
+	write(1, "\n", 1);
+
+
 }
