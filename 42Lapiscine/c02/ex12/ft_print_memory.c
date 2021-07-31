@@ -77,6 +77,6 @@ void *ft_print_memory(void *addr, unsigned int size)
 
 int main()
 {
-	char arr[] =  "Bonjour les amin askdlfjalksdjfalkfj";
+	char arr[] =  "Bonjour les amin askdlfa\nlksdjfalkfj";
 	ft_print_memory(arr, 32);
 }

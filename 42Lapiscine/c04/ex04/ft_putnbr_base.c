@@ -26,8 +26,8 @@ int check_base(char *base)
         i++;
     }
     i = 0;
-    while (base[i] != '\0')
-        i++;
+    while (base[i] != '\0') //위에 나온 i를 그냥 리턴해도 되지않을까?
+        i++;	//컴파일 해보면 없어도 되긴하는데...
     return (i);
 }
 

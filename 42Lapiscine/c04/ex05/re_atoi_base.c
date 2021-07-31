@@ -1,20 +1,18 @@
 #include <stdio.h>
 
-int num_base(char *str, int len, char *base)
-{	
+int	num_base(char *str, int len, char *base)
+{
 	int i;
 	int num;
-	
+
 	num = 0;
 	while (*str)
-	{	
+	{
 		i = 0;
-		while (base[i] != '\0')
+		while (base[i])
 		{
 			if (*str == base[i])
-			{
 				num = num * len + i;
-			}
 			i++;
 		}
 		str++;
@@ -22,13 +20,14 @@ int num_base(char *str, int len, char *base)
 	return (num);
 }
 
-int check_base(char *base)
+int	check_base(char *base)
 {
-	int i, j;
+	int i;
+	int j;
 
 	i = 0;
 	while (base[i])
-	{	
+	{
 		j = i + 1;
 		while (base[j])
 		{
@@ -36,39 +35,38 @@ int check_base(char *base)
 				return (0);
 			j++;
 		}
-		if ((base[i] >= 9 && base[i] <= 13) || base[i] == ' ' 
+		if ((9 <= base[i] && base[i] <= 13) || base[i] == ' '
 				|| base[i] == '+' || base[i] == '-')
 			return (0);
 		i++;
 	}
-	i = 0;
-	while (base[i] != '\0')
-		i++;
 	return (i);
 }
 
-int ft_atoi_base(char *str, char *base)
-{	
-	int len = check_base(base);
-	int sign = 1;
-	
-	while ((*str >= 9 && *str <= 13) || *str == ' ')
+int	ft_atoi_base(char *str, char *base)
+{
+	int len;
+	int sign;
+
+	len = check_base(base);
+	sign = 1;
+	while ((9 <= *str && *str <= 13) || *str == ' ')
 		str++;
 	while (*str == '-' || *str == '+')
-	{	
+	{
 		if (*str == '-')
 			sign *= -1;
 		str++;
 	}
-	if (!len)
+	if (len < 2)
 		return (0);
-    return ((num_base(str, len, base)) * sign);
+	return ((num_base(str, len, base)) * sign);
 }
 
 int main()
 {
 	int i;
-	char *nbr = "--a";
-	char *base = "0123456789abcdef";
+	char *nbr = "-10";
+	char *base = "01";
 	printf("%d \n", ft_atoi_base(nbr, base));
 }
