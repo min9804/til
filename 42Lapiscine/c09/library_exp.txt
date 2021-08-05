@@ -10,3 +10,11 @@ r : 아카이브에 새로운 오브젝트를 추가한다는 옵션
 ex)
 gcc -c -Wall -Wextra -werror *.c
 ar -cr libft.a *.o
+
+라이브러리를 사용하여 컴파일 예시)
+gcc -o print_sum print_sum.c -L./-ft
+
+-L 옵션은 라이브러리 위치를 알려준다.
+표준 라이브러리의 경우 -L을 사용하지 않아도 된다.
+
+

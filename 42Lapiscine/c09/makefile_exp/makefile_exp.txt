@@ -1,4 +1,4 @@
-makefile_explain
+-makefile_explain
 
 소스파일을 컴파일을 하기위해서는 
 gcc [옵션] [실행파일명] [소스파일명] 이 필요하다.
@@ -39,13 +39,41 @@ chmod 755로 권한주기!
 make를 이용하면 변경된 소스만 오브젝트파일을 만들어 컴파일 하는
 기능을 이용할 수 있다.
 
- 
+
+-Makefile 작성규칙
+
+목표파일: 목표파일을 만드는데 필요한 구성요소들
+(tab)	목표를 달성하기 위한 명령1
+(tab)	목표를 달성하기 위한 명령2
+
+//매크로 정의: Makdefile에 정의한 string으로 치환한다.
+//명령어의 시작은 반드시 탭으로 시작한다.
+//Dependency가 없는 target도 사용 가능하다.
 
 
+-Make 예제
+
+(타켓절)      (의존성)
+hello_world : hello.o world.o main.o
+	gcc -o hello_world hello.o world.o main.o (명령어)
+
+hello.o : hello.c
+	gcc -c -o hello.o hello.c
+
+world.o : world.c
+	gcc -c -o world.o world.c
+
+main.o : main.c
+	gcc -c -o main.o main.c
+
+clean :			(더미타겟)
+	rm *.o hello_world 
+
+더미타겟은 파일을 생성하지 않는 개념적인 타겟으로 
+make clean 명령하면 현재 디렉토리의 모든 object파일들과 생성된 실행
+파일을 rm 명령어로 제거해 줍니다. 
 
 
+-Makefile 매크로 사용
 
-
-
-
-
+CC = 
