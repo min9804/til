@@ -9,4 +9,4 @@ $(TARGET): $(OBJECTS)
 	     $(CC) $(CFLAGS) -o $@ $^
 
 clean :
-	rm *.o hello_world
+	rm *.o $(TARGET)

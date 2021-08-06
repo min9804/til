@@ -55,7 +55,7 @@ make를 이용하면 변경된 소스만 오브젝트파일을 만들어 컴파�
 
 -Make 예제
 
-(타켓절)      (의존성)
+(타겟절)      (의존성, 종속항목)
 hello_world : hello.o world.o main.o
 	gcc -o hello_world hello.o world.o main.o (명령어)
 
@@ -110,3 +110,66 @@ clean :
 
 -Makefile개선하기2: 내부 매크로 사용
 
+CC = gcc
+CFLAGS = -Wall -Wextra -Werror
+TARGET = hello_world
+OBJECTS = hello.o world.o main.o
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	     $(CC) $(CFLAGS) -o $@ $^
+
+clean :
+	rm *.o hello_world
+
+*내부명령어
+$@ 현재 타겟의 이름
+$^ 현재 타겟의 종속 항목 리스트
+
+1. gcc 컴파일러를 이용
+2. 사소한 오류까지 출력
+3. 최종 타겟 파일은 diary_exe
+4. OBJECT 로 정의할 파일들은 hello.o world.o main.o
+5. all 은 현재는 사용하지 않았지만 타겟 파일이 여러개 일때 사용됩니다.
+6. 타겟 파일을 만들기 위해 OBJECT 들을 사용한다.( 단 OBJECT 파일이 
+없다면 OBJECT 파일과 이름이 동일한 C파일을 찾아 OBJECT파일을 생성한다. )
+7. gcc -o diary_exe memo.o main.o calendar.o과 동일
+8. 더미타겟
+
+
+-Makefile기호
+
+$@ 현재 타겟의 이름
+$^ 현재 타겟의 종속 항목 리스트
+$< 타겟을 생성하기 위해 가장 왼쪽에 기술된 첫번째 오브젝트
+$? 타겟을 생성하기 위해서 기술된 것들에 가장 최근에 변경된 오브젝트 파일
+
+
+%.o: %.c
+% 기호는 파일이름을 의미한다.
+
+OBJS = $(SOURCES:.c=.o)
+OBJS는 SOURC의 값을 할당받는다.
+.c 파일이 .o파일로 변환된후에
+
+all : $(TARGET)
+all 옵션이 없는 경우 제일 첫번째 Target만 실행 시키고 종료
+ex) TARGET 을 만드는 절이 밑에 있는 경우
+
+-c 옵션은 object 파일을 생성하는 옵션이고,
+-o 옵션은 생성 될 파일 이름을 지정하는 옵션입니다.
+
+-o 옵션을 넣지 않아도 object 파일이름이 (c파일이름).o로 자동 생성 됩니다.
+하지만 실행 파일 생성시 -o 옵션을 넣지 않으면 모든 파일이 a.out 
+이라는 이름을 가지게 되므로 여러 개의 실행 파일을 생성해야 
+할 때 효율적인 옵션입니다.
+
+‘-I dir’
+‘--include-dir=dir’
+Specifies a directory dir to search for included makefiles. See Including Other Makefiles. If several ‘-I’ options are used to specify several directories, the directories
+are searched in the order specified.
+
+
+
+참조, 출처: https://bowbowbow.tistory.com/12#make-와-makefile [멍멍멍]
