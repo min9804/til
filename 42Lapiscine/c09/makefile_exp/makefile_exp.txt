@@ -170,6 +170,8 @@ ex) TARGET 을 만드는 절이 밑에 있는 경우
 Specifies a directory dir to search for included makefiles. See Including Other Makefiles. If several ‘-I’ options are used to specify several directories, the directories
 are searched in the order specified.
 
-
+make clean 	오브젝트파일만 삭제
+make fclean 	오브젝트파일과 타겟파일 삭제
+make re		make fclean 후 다시 all
 
 참조, 출처: https://bowbowbow.tistory.com/12#make-와-makefile [멍멍멍]

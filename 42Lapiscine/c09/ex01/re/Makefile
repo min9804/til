@@ -1,4 +1,5 @@
-C = gcc
+CC = gcc
+
 CFLAGS = -Wall -Wextra -Werror
 
 SRCDIR = srcs
