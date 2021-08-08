@@ -123,10 +123,6 @@ $(TARGET): $(OBJECTS)
 clean :
 	rm *.o hello_world
 
-*내부명령어
-$@ 현재 타겟의 이름
-$^ 현재 타겟의 종속 항목 리스트
-
 1. gcc 컴파일러를 이용
 2. 사소한 오류까지 출력
 3. 최종 타겟 파일은 diary_exe
@@ -136,6 +132,9 @@ $^ 현재 타겟의 종속 항목 리스트
 없다면 OBJECT 파일과 이름이 동일한 C파일을 찾아 OBJECT파일을 생성한다. )
 7. gcc -o diary_exe memo.o main.o calendar.o과 동일
 8. 더미타겟
+
+
+
 
 
 -Makefile기호
