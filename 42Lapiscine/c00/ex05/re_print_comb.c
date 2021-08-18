@@ -3,11 +3,10 @@
 void	ft_print_comb(void)
 {
 	char num[3];
-	char separator[2];
+	char *separator;
 
 	num[0] = '0';
-	separator[0] = ',';
-	separator[1] = ' ';
+	separator = ", ";
 
 	while (num[0] <= '7')
 	{
@@ -30,8 +29,9 @@ void	ft_print_comb(void)
 	}
 }
 
-void 	main()
+int 	main()
 {
 	ft_print_comb();
+	return (0);
 }
 
