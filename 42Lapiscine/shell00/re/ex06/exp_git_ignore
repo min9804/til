@@ -2,6 +2,25 @@ git ls-files --others -i --exclude-standard
 git ls-files -o -i --exclude-standard
 
 
+git ls-files -i --exclude-standard 
+ignore된 파일은 추적이 되지 않기 때문에 위에 명령어로는 ignore파일 을 
+찾을수 없다.
+git ls-files -o -i --exclude-standard
+others는 추적되지 않는 파일을 모두 주고 그중에 ignore된 파일을 찾는다.
+
+
+
+
+-o : 추적되지 않는 모든 파일
+
+-i : ignored 무시하는파일
+
+--exclude-standard : 추적되는 파일
+
+종합 : (-o)추적되지 않는 모든 파일(히든, .ignore파일)등 중 
+	(-i --exclude-standard)ignore파일들만 출력
+
+
 
 git ls-files 인덱스 및 작업 트리의 파일에 대한 정보를 표시합니다
 
