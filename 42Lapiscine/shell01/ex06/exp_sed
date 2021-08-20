@@ -1,0 +1,23 @@
+-n      By default, each line of input is echoed to the standard output after all of
+             the commands have been applied to it.  The -n option suppresses this behav-
+             ior.
+
+
+sed 와 같이 쓰는 치환플래그
+g : 치환이 행 전체에 대해 이뤄진다.
+p : 행을 출력 한다.
+w : 파일에 쓴다.
+x : 홀드버퍼와 패넡 스페이스의 내용을 서로 맞바꾼다.
+y : 한 문자를 다른 문자로 변환한다(y에 정규 표현식 메타문자를 사용할 수 없다)
+
+; : 하나의 명령어 라인에서 여러 개의 명령을 실행하게 해준다.
+
+n : 다음 입력 행을 첫 번째 명령어가 아닌 다음 명령어에서 처리하게 한다.
+
+
+예를들어 ls -l | sed -n 'p;n;p' 를 한 경우에 n 다음에 p 명령어로 행을 출력 하기 때문에
+다음라인 을 출력 해버린다.
+
+하지만 ls -la | sed -n 'p;n' 을 하면 다음 명령어가 없기 때문에 다음행이 넘어가 버린다.
+
+' ' 는 주소 범위르 지정한다.

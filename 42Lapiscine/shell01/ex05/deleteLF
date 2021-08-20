@@ -1,0 +1,5 @@
+:set noendofline binary
+
+:%s///g
+
+ctrl + v + m  : 
