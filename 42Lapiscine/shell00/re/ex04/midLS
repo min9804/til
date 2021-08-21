@@ -1,9 +1,0 @@
-ls -tUmp
-
-
-*ls options
- -t     sort by modification time, newest first
- -U     do not sort; list entries in directory order
- -m     fill width with a comma separated list of entries
- -p, --indicator-style=slash
-              append / indicator to directories
