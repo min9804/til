@@ -28,8 +28,44 @@ d : '/'사이에 들어있는 단어를 포함하고 있는 모든 줄을 삭제
 * 두번째 행부터 시작하여 출력
 | awk '{if (NR%2==0) print}'
 
-NR : 입력 시작 점에서 현재 레코드의 순서 값.
+NR	: 입력 시작 점에서 현재 레코드의 순서 값.
+NR%2==0	: 두번째 줄부터
+print	: 모든 행 출력 
 
 
+* ':', '.', '*' 지우기
+| sed 's/:.*//'
+s	: 치환할 때 사용하는 subcommand
 
 
+* login 거꾸로반전 시키기
+|rev
+The rev utility copies the specified files to the standard output, reversing theorder of characters in every line.
+
+
+* 알파벳 역순 정렬
+sort -r
+
+
+* FT_LINE1, FTLINE2 포함한 그 사이의 값들만 남김 ex) | sed -n '3,7p' 3~7라인만 출력
+sed 에서 환경변수를 사용하려면 "" 를 써야 적용된다.
+| sed -n "${FT_LINE1},${FT_LINE2}p" 
+$n	: n번째필드
+p	: 출력
+
+
+* 각 login을 ,로 구분 
+'\n'을 ','로 치환 
+| tr '\n' ','
+
+* 
+| sed 's/,/, /g'
+
+
+* 마지막에 점찍기
+마지막에 , $이 나온 경우 . 으로 바꿈
+| sed 's/, $/./'
+
+
+*
+| tr -d '\n'
