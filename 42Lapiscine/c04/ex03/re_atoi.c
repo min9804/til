@@ -17,16 +17,18 @@ int	ft_atoi(char *str)
 	while ('0' <= *str && *str <= '9')
 	{
 		ret *= 10;
-		ret += (sign * ((*str) - '0'));
+		ret += *str - '0';
 		str++;
 	}
+	ret *= sign;
 	return (ret);
 }
 
-void	main(void)
+int		main(void)
 {
 	char arr[] = "---+--+1234ab567";
 	printf("%d \n", ft_atoi(arr));
+	return (0);
 }
 
 
