@@ -131,5 +131,8 @@ char	*moment(unsigned int duration)
 int		main(void)
 {
 	printf("%s\n", moment(25920000));
+	printf("%s\n", moment(95678918));
+	printf("%s\n", moment(2768));
+	printf("%s\n", moment(30));
 	return (0);
 }

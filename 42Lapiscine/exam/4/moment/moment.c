@@ -79,32 +79,16 @@ char	*moment(unsigned int duration)
 	int 	n;
 
 	n = ft_cal(duration);
-	if(n == 1)
-	{
-		if (duration >= 25920000)
-			str = " month ago.";
-		else if (duration >= 86400)
-			str = " day ago.";
-		else if (duration >= 3600)
-			str = " hour ago.";
-		else if (duration >= 60)
-			str = " minute ago.";
-		else
-			str = " second ago.";
-	}
+	if (duration >= 25920000)
+		str = " month ago.";
+	else if (duration >= 86400)
+		str = " day ago.";
+	else if (duration >= 3600)
+		str = " hour ago.";
+	else if (duration >= 60)
+		str = " minute ago.";
 	else
-	{
-		if (duration >= 25920000)
-			str = " month ago.";
-		else if (duration >= 86400)
-			str = " day ago.";
-		else if (duration >= 3600)
-			str = " hour ago.";
-		else if (duration >= 60)
-			str = " minute ago.";
-		else
-			str = " second ago.";
-	}
+		str = " second ago.";
 	if (n)
 		str_dur = ft_itoa(n);
 	else
@@ -119,5 +103,6 @@ int		main(void)
 	printf("%s\n", moment(95678918));
 	printf("%s\n", moment(2768));
 	printf("%s\n", moment(30));
+	printf("%s\n", moment(0));
 	return (0);
 }
