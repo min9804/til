@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 char		**ft_split(char *str)
 {
@@ -8,7 +9,7 @@ char		**ft_split(char *str)
 	char 	**ret;
 
 	i = 0;
-	word = 0;
+	k = 0;
 	if (!(ret = (char **)malloc(sizeof(char *) * 256)))
 		return (NULL);
 	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')
@@ -18,7 +19,7 @@ char		**ft_split(char *str)
 		j = 0;
 		if (!(ret[k] = (char *)malloc(sizeof(char) * 4096)))
 			return (NULL);
-		while (str[i] != ' ' && str[i] != '\t' && str[i] != '\n' &&str[i])
+		while (str[i] != ' ' && str[i] != '\t' && str[i] != '\n' && str[i])
 			ret[k][j++] = str[i++];
 		while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')
 			++i;
@@ -27,4 +28,20 @@ char		**ft_split(char *str)
 	}
 	ret[k] = NULL;
 	return (ret);
+}
+
+int		main(void)
+{
+	char **arr;
+	char arr2[] = "hello world";
+	int i;
+
+	arr = ft_split(arr2);
+	i = 0;
+	while (arr[i])
+	{
+		printf("%s\n", arr[i]);
+		++i;
+	}
+	return (0);
 }
