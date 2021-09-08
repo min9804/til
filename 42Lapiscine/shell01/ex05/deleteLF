@@ -10,3 +10,15 @@ ctrl + v + m  :
 -R      Recursively list subdirectories encountered.
 -a      Include directory entries whose names begin with a dot (.).
 
+
+
+
+
+
+
+!!!!
+
+vi -b file : 바이너리모드로 열기
+:%!xxd
+0a 지우고
+:%!xxd -r
