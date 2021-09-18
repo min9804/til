@@ -32,4 +32,12 @@ echo "obase=16;ibase=2;11011" | bc
 여기서는 매개변수 11011을 지정해 줬지만 우리는 앞에 명령어의 실행 결과를 매개 변수로 받아야한다.
 따라서 xargs 명령어를 이용해 매개 변수를 지정 해준다.
 
+#!/bin/sh
 
+#FT_NBR2=rcrdmddd
+#FT_NBR1="\\'?\"\\\"'\\"
+
+FT_NBR1_CONVERT=`echo $FT_NBR1 | tr '\\\"?\!' "1234" | tr "'" "0"`
+FT_NBR2_CONVERT=`echo $FT_NBR2 | tr 'mrdoc' '01234'`
+
+echo "ibase=5; obase=23; $FT_NBR1_CONVERT + $FT_NBR2_CONVERT" | bc | tr '0123456789ABC' 'gtaio luSnemf'
