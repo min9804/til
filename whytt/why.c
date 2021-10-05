@@ -91,6 +91,7 @@ int	main(int argc, char **argv)
 		return (0);
 	}
 	fill_board(matriz, 0, 0);
+	printf("%d\n", g_count);
 	for (int i = 0 ; i < g_count; i++)
 	{
 		if (check_matriz(g_rules, g_save[i]))
