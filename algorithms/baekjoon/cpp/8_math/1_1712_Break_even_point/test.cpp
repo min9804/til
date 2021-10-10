@@ -3,11 +3,19 @@
 int	main(void)
 {
 	int a, b, c;
+	long long i = 0;
 
 	scanf("%d %d %d", &a, &b, &c);
 	if (b >= c)
+	{
 		printf("-1\n");
+		return (0);
+	}
 	else
-		printf("%d\n", a/(c-b) + 1);
-	return (0);
+	{
+		while (a + b * i >= c * i)
+		       i++;	
+		printf("%d\n", i);
+		return (0);
+	}
 }
