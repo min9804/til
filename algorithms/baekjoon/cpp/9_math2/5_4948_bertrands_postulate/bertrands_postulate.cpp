@@ -3,7 +3,7 @@
 int 	eratos(int t)
 {
 	int i, j, m, n, a[246913] = {0, 1}, cnt = 0;
-	m = t;
+	m = t + 1;
 	n = t * 2;
 
 	for (i = 2; i <= n; i++)
